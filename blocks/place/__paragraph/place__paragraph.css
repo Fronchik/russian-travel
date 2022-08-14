@@ -1,0 +1,16 @@
+.place__paragraph {
+  /* обрати внимание, что второй параграф отличается!! */
+  width: 456px;
+  height: 174px;
+  left: 520px;
+  top: 2937px;
+
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 163%;
+  /* or 29px */
+
+  color: #ffffff;
+}
