@@ -1,6 +1,26 @@
 .place {
-  width: 928px;
-  height: 640px;
-  left: 48px;
-  top: 2737px;
+  margin: 0;
+  padding: 0;
+
+  max-width: 984px;
+
+  list-style-type: none;
+}
+
+@media (max-width: 1024px) {
+  .place {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .place {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place {
+    max-width: 320px;
+  }
 }

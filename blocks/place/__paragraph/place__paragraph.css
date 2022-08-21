@@ -1,16 +1,25 @@
 .place__paragraph {
-  /* обрати внимание, что второй параграф отличается!! */
-  width: 456px;
-  height: 174px;
-  left: 520px;
-  top: 2937px;
+  margin: 0;
 
-  font-family: "Inter";
   font-style: normal;
   font-weight: 400;
   font-size: 18px;
-  line-height: 163%;
-  /* or 29px */
+  line-height: 29px;
 
   color: #ffffff;
+}
+
+@media (max-width: 768px) {
+  .place__paragraph {
+    font-size: 16px;
+    line-height: 26px;
+  }
+}
+
+@media (max-width: 320px) {
+  .place__paragraph {
+    max-width: 288px;
+
+    margin-left: 16px;
+  }
 }
