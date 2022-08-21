@@ -1,8 +1,24 @@
 .page {
-  /* какой указать шрифт? как подключить шрифт? Мне нужно как-то прописать все через собачку (медиазапрос), а еще обязательно прописать в самой странице пейдж?*/
   font-family: "Inter", "Arial", sans-serif;
-  /* взяла из макета*/
   max-width: 1184px;
   margin: 0 auto;
   background: #2a2c2f;
+}
+
+@media (max-width: 1024px) {
+  .page {
+    max-width: 928px;
+  }
+}
+
+@media (max-width: 768px) {
+  .page {
+    max-width: 768px;
+  }
+}
+
+@media (max-width: 320px) {
+  .page {
+    max-width: 320px;
+  }
 }
