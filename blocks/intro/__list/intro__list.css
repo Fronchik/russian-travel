@@ -1,15 +1,31 @@
 .intro__list {
-  width: 690px;
-  height: 90px;
-  left: 48px;
-  top: 1521px;
+  max-width: 690px;
+  min-height: 90px;
+  margin-top: 33px;
+  margin-bottom: 0;
 
-  font-family: "Inter";
   font-style: normal;
-  font-weight: 700;
+  font-weight: 400;
   font-size: 12px;
   line-height: 18px;
-  /* or 150% */
+
+  list-style-type: none;
+  padding: 0;
 
   color: #ffffff;
+}
+
+@media (max-width: 765px) {
+  .intro__list {
+    max-width: 720px;
+  }
+}
+
+@media (max-width: 320px) {
+  .intro__list {
+    max-width: 288px;
+    max-height: 90px;
+
+    margin-top: 34px;
+  }
 }
