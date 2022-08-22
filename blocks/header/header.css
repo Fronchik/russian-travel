@@ -3,6 +3,7 @@
   min-height: 52px;
   margin: 0 auto;
   margin-top: 28px;
+  width: 100%;
 
   display: flex;
   justify-content: space-between;

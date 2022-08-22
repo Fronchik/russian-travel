@@ -3,9 +3,10 @@
   min-height: 671px;
   margin: 0 auto;
   margin-top: 92px;
+  width: 100%;
 
   display: grid;
-  grid-template-columns: repeat(4, 284px);
+  grid-template-columns: repeat(4, minmax(100px, 284px));
   grid-template-rows: repeat(3, 213px);
   gap: 16px;
 }
