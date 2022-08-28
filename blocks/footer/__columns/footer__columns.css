@@ -3,28 +3,5 @@
   position: relative;
   justify-content: space-between;
   align-items: center;
-}
-
-@media (max-width: 1024px) {
-  .footer__columns {
-    max-width: 928px;
-  }
-}
-
-@media (max-width: 768px) {
-  .footer__columns {
-    margin-top: 88px;
-    max-width: 720px;
-  }
-}
-
-@media (max-width: 320px) {
-  .footer__columns {
-    margin-top: 64px;
-    max-width: 186px;
-    min-height: 310px;
-
-    flex-direction: column;
-    align-items: normal;
-  }
+  width: 100%;
 }

@@ -1,6 +1,5 @@
 .place__website {
   max-width: 456px;
-  min-height: 46px;
 
   display: flex;
   flex-direction: column;
@@ -14,7 +13,7 @@
   }
 }
 
-@media (max-width: 320px) {
+@media (max-width: 767px) {
   .place__website {
     max-width: 288px;
 
