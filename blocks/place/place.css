@@ -23,7 +23,7 @@
   }
 }
 
-@media (max-width: 767px) {
+@media (max-width: 660px) {
   .place {
     grid-template-columns: 1fr;
     gap: 32px;
